@@ -165,7 +165,7 @@ function InternshipPage() {
             <div className="mt-7 flex flex-wrap items-center gap-3">
               <Button asChild size="lg" className="min-h-12">
                 <a href="#plans">
-                  Explore internship plans
+                  Register your internship!
                   <ArrowRight aria-hidden="true" />
                 </a>
               </Button>
