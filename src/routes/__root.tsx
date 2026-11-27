@@ -121,6 +121,21 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        <style>
+          {`
+            #lovable-badge,
+            #lovable-badge-root,
+            aside#lovable-badge,
+            a#lovable-badge-cta {
+              display: none !important;
+              visibility: hidden !important;
+              opacity: 0 !important;
+              width: 0 !important;
+              height: 0 !important;
+              pointer-events: none !important;
+            }
+          `}
+        </style>
       </head>
       <body>
         {children}
