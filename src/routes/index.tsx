@@ -115,13 +115,12 @@ function InternshipPage() {
       <header className="sticky top-0 z-30 border-b border-border bg-background/95 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3 sm:px-8">
           <Link to="/" className="flex min-w-0 items-center gap-3" aria-label="LETS GAME TECH home">
-            <span className="grid size-10 shrink-0 place-items-center rounded-sm bg-primary text-primary-foreground">
-              <Code2 aria-hidden="true" className="size-5" />
-            </span>
-            <span className="min-w-0 leading-tight">
-              <span className="block text-sm font-semibold">LETS GAME TECH</span>
-              <span className="block text-[0.65rem] font-medium">GLOBAL PRIVATE LIMITED</span>
-            </span>
+           <img
+             src="/images/lets-game-tech-logo.png"
+           alt="LETS GAME TECH – Edu Tech and Software Development"
+           className="h-12 w-auto max-w-[190px] object-contain sm:h-14"
+           fetchPriority="high"
+           />
           </Link>
 
           <nav aria-label="Main navigation" className="hidden items-center gap-6 md:flex">
